@@ -46,19 +46,17 @@ This package contains very nice and free fonts TTF.
 Ten pakiet zawiera bardzo ³adne i darmowe fonty TTF.
 
 %prep
-%setup -q -c
-/usr/bin/unzip -o %{SOURCE3}
-/usr/bin/unzip -o %{SOURCE4}
-/usr/bin/unzip -o %{SOURCE5}
-/usr/bin/unzip -o %{SOURCE6}
-/usr/bin/unzip -o %{SOURCE7}
-/usr/bin/unzip -o %{SOURCE8}
-/usr/bin/unzip -o %{SOURCE9}
-/usr/bin/unzip -o %{SOURCE10}
-/usr/bin/unzip -o %{SOURCE11}
-/usr/bin/unzip -o %{SOURCE12}
-/bin/tar xzf %{SOURCE1}
-/bin/tar xzf %{SOURCE2}
+%setup -q -c -a1 -a2
+unzip -o %{SOURCE3}
+unzip -o %{SOURCE4}
+unzip -o %{SOURCE5}
+unzip -o %{SOURCE6}
+unzip -o %{SOURCE7}
+unzip -o %{SOURCE8}
+unzip -o %{SOURCE9}
+unzip -o %{SOURCE10}
+unzip -o %{SOURCE11}
+unzip -o %{SOURCE12}
 
 %install
 rm -rf $RPM_BUILD_ROOT
