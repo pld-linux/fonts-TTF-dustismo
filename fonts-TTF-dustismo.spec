@@ -2,7 +2,7 @@ Summary:	Free True Type fonts by Dustismo
 Summary(pl):	Darmowe fonty True Type zrobione przez Dustismo
 Name:		fonts-TTF-dustismo
 Version:	20041002
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Fonts
 Source0:	http://www.dustismo.com/fonts/Domestic_Manners.zip
