@@ -46,7 +46,7 @@ This package contains very nice and free fonts TTF.
 Ten pakiet zawiera bardzo ³adne i darmowe fonty TTF.
 
 %prep
-/usr/bin/unzip -o %{SOURCE0}
+%setup -q -c
 /usr/bin/unzip -o %{SOURCE3}
 /usr/bin/unzip -o %{SOURCE4}
 /usr/bin/unzip -o %{SOURCE5}
