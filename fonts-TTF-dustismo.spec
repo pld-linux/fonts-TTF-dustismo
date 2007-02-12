@@ -1,5 +1,5 @@
 Summary:	Free True Type fonts by Dustismo
-Summary(pl):	Darmowe fonty True Type zrobione przez Dustismo
+Summary(pl.UTF-8):   Darmowe fonty True Type zrobione przez Dustismo
 Name:		fonts-TTF-dustismo
 Version:	20041002
 Release:	1
@@ -42,8 +42,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains very nice and free fonts TTF.
 
-%description -l pl
-Ten pakiet zawiera bardzo ³adne i darmowe fonty TTF.
+%description -l pl.UTF-8
+Ten pakiet zawiera bardzo Å‚adne i darmowe fonty TTF.
 
 %prep
 %setup -q -c -a1 -a2
