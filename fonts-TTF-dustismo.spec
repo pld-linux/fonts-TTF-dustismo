@@ -1,5 +1,5 @@
 Summary:	Free True Type fonts by Dustismo
-Summary(pl.UTF-8):   Darmowe fonty True Type zrobione przez Dustismo
+Summary(pl.UTF-8):	Darmowe fonty True Type zrobione przez Dustismo
 Name:		fonts-TTF-dustismo
 Version:	20041002
 Release:	1
